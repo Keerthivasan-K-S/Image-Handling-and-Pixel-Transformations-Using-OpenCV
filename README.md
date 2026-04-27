@@ -59,7 +59,7 @@ plt.show()
 
 #### 4. Save the image as a PNG file using OpenCV imwrite().
 ```python
-# YOUR CODE HERE
+cv2.imwrite('Eagle_in_Flight.png', img)
 ```
 
 #### 5. Read the saved image above as a color image using cv2.cvtColor().
@@ -213,6 +213,7 @@ plt.show()
 
 ## Output:
 **i)** Read and Display an Image.
+
 1.Read 'Eagle_in_Flight.jpg' as grayscale and display:
 
 
